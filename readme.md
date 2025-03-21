@@ -14,6 +14,13 @@ This project is a reinforcement learning-based language model training initiativ
 ### Output Format Design
 The model is trained to generate responses in the following structured format:
 
+<think>
+详细的推理过程...
+</think>
+<answer>
+最终答案
+</answer>
+
 ### Multi-Dimensional Reward Functions
 1. **Correctness Reward**: The model receives the highest reward if the answer matches the reference solution.
 2. **Numerical Reward**: Encourages the model to output numerical answers.
@@ -37,12 +44,22 @@ The model is trained to generate responses in the following structured format:
 
 ### Environment Setup
 
+pip install torch transformers datasets trl peft
+
 ### Data Preparation
+
 Ensure that the **GSM8K dataset** is downloaded to the specified directory.
 
 ### Model Training
 
+python deepseek_r1_train.py
+
 ### Model Inference
+
+python deepseek_r1_test.py
+
+## Model Download
+**DeepSeek-r1**: [DeepSeek-r1 Model](https://huggingface.co/lation/DeepSeek-r1/tree/main)
 
 ## Future Improvements
 1. Incorporate additional mathematical datasets for training.
@@ -55,5 +72,7 @@ Ensure that the **GSM8K dataset** is downloaded to the specified directory.
 MIT
 
 ## Acknowledgments
+Thanks to the [llm_related](https://github.com/wyf3/llm_related/tree/main) project for providing guidance and inspiration.
 We extend our gratitude to the **Qwen** team for providing the base model and to the creators of the **GSM8K dataset**.
+
 
