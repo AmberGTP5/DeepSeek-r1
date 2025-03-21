@@ -62,7 +62,7 @@ Ensure that the **GSM8K dataset** is downloaded to the specified directory.
 ### Model Inference
 
 ```bash    
-  python deepseek_r1_test.py
+  python inference.py
 ```
 
 ## Model Download
