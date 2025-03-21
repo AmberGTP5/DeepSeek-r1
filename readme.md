@@ -79,7 +79,7 @@ Ensure that the **GSM8K dataset** is downloaded to the specified directory.
 MIT
 
 ## Acknowledgments
-Thanks to the [llm_related](https://github.com/wyf3/llm_related/tree/main) project for providing guidance and inspiration.
-We extend our gratitude to the **Qwen** team for providing the base model and to the creators of the **GSM8K dataset**.
+- Thanks to the [llm_related](https://github.com/wyf3/llm_related/tree/main) project for providing guidance and inspiration.
+- We extend our gratitude to the **Qwen** team for providing the base model and to the creators of the **GSM8K dataset**.
 
 
